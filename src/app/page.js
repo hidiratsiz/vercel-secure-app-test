@@ -5,11 +5,11 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Şifre Kontrolü</h1>
-      {SECRET_PASSWORD === 'beklenen_sifre' ? (
-        <p>Şifre doğru!!!</p>
+      <h1>Password Check</h1>
+      {SECRET_PASSWORD === 'pWd1122' ? (
+        <p>Password is correct!!!</p>
       ) : (
-        <p>Şifre yanlış veya tanımlanmamış.</p>
+        <p>Password is incorrect or not defined.</p>
       )}
     </div>
   );
