@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <h1>Şifre Kontrolü</h1>
       {SECRET_PASSWORD === 'beklenen_sifre' ? (
-        <p>Şifre doğru!</p>
+        <p>Şifre doğru!!!</p>
       ) : (
         <p>Şifre yanlış veya tanımlanmamış.</p>
       )}
